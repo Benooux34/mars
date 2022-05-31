@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.iconHover {
+    color: white;
+}
+
+.iconHover:hover {
+        color: #fe3842;
+}
