@@ -36,7 +36,7 @@ function Loader() {
 function P1() {
   return (
     <div className="lg:flex lg:justify-between lg:items-center h-screen">
-        <div className="lg:w-[50%] h-[55%] lg:h-[75%] mx-[50px] lg:ml-[200px] text-white">
+        <div className="lg:w-[50%] lg:h-[75%] mx-[50px] lg:ml-[200px] text-white">
             <h2 className="text-5xl mb-5">Humans live on mars, is it possible ?</h2>
             <span className="font-light text-lg">Humans live on the planet Mars, is it possible ? To see the possibility of humans living on the planet Mars, is it important to know the facts of the planet Mars first.</span>
             <div className="ml-[10px] lg:ml-0 mt-10 md:flex space-y-5 md:space-y-0 md:space-x-20">
@@ -66,7 +66,7 @@ function P1() {
                 </div>
             </div>
         </div>  
-        <div className="h-screen w-full lg:w-[50%]">
+        <div className="lg:h-screen w-full lg:w-[50%]">
             <Canvas>
                 <pointLight position={[-10, 10, 10]} intensity={0.6} />
                 <ambientLight intensity={0.02} />
